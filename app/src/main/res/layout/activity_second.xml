@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#560027"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="italic|bold"
+        android:id="@+id/getName"
+        android:layout_marginBottom="20dp"
+        android:drawablePadding="10dp"
+        android:padding="5dp"
+        android:background="@drawable/round"
+        android:layout_marginHorizontal="40dp"
+        android:hint="@string/enter_name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+    <Button
+        android:id="@+id/goBack"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_second"
+        android:textSize="30dp"
+        android:textAllCaps="false"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="@string/go_back" />
+
+</LinearLayout>
